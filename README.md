@@ -20,4 +20,4 @@ This is a full-stack e-commerce platform for **rare antiques and vintage jewelry
 
 ## Layout Image
 
-<img src="./Img/Screenshot 2025-02-07 100952.png"/>
+![WireFrame](./Img/Screenshot%202025-02-07%20100952.png)
