@@ -17,3 +17,7 @@ This is a full-stack e-commerce platform for **rare antiques and vintage jewelry
 | **Frontend** | React.js, Tailwind CSS |
 | **Backend**  | Node.js, Express.js |
 | **Database** | MongoDB (Mongoose) |
+
+## Layout Image
+
+![WireFrame](./Img/Screenshot%202025-02-07%20100952.png)
