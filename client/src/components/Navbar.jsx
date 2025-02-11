@@ -3,14 +3,17 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-white shadow-md py-4 px-8 flex justify-between">
-      <h1 className="text-xl font-bold">
-        <Link to="/">Antique Jewelry</Link>
-      </h1>
-      <div className="space-x-4">
-        <Link to="/auctions" className="hover:text-blue-600">Auctions</Link>
-        <Link to="/collections" className="hover:text-blue-600">Collections</Link>
-        <Link to="/contact" className="hover:text-blue-600">Contact</Link>
+    <nav className="navbar">
+      <h1 className="logo">Antique Jewelry</h1>
+      <ul className="nav-links">
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/auctions">Auctions</Link></li>
+        <li><Link to="/collections">Collections</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+      </ul>
+      <div className="auth-buttons">
+        <button className="btn">Sign In</button>
+        <button className="btn primary">Register</button>
       </div>
     </nav>
   );
