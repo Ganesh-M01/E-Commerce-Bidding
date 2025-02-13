@@ -6,12 +6,14 @@ import Home from "./pages/Home";
 import Auctions from "./pages/Auctions";
 import Collections from "./pages/Collections";
 import Contact from "./pages/Contact";
+import FollowCursor from "./components/FlowCursor"
 import "./styles.css"; // Import the updated CSS
 
 function App() {
   return (
     <Router>
       <div className="container">
+      <FollowCursor color="#6a0dad" />
         <Navbar />
         <main className="content">
           <Routes>

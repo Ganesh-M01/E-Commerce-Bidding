@@ -4,7 +4,9 @@
   padding: 2rem;
   text-align: center;
 }
-
+* {
+  cursor: none; /* Hides the default cursor */
+}
 .logo {
   height: 6em;
   padding: 1.5em;

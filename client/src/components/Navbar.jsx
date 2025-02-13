@@ -1,8 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import FollowCursor from "./FlowCursor"
+
 
 function Navbar() {
   return (
+
     <nav className="navbar">
       <h1 className="logo">Antique Jewelry</h1>
       <ul className="nav-links">

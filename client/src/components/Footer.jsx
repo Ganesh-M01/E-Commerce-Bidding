@@ -11,10 +11,10 @@ function Footer() {
         </div>
         <div className="footer-section">
           <h3>Quick Links</h3>
-          <p><a href="/">Home</a></p>
-          <p><a href="/auctions">Auctions</a></p>
-          <p><a href="/collections">Collections</a></p>
-          <p><a href="/contact">Contact</a></p>
+         <pre><a href="/">   Home  </a>
+          <a href="/auctions">Auctions  </a>
+          <a href="/collections">Collections  </a>
+          <a href="/contact">Contact </a></pre>
         </div>
         <div className="footer-section">
           <h3>Follow Us</h3>
